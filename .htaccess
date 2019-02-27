@@ -1,0 +1,4 @@
+<ifmodule mod_headers.c>
+  Header Set Access-Control-Allow-Origin "*"
+  Header Set Access-Control-Allow-Headers "*"
+</ifModule>

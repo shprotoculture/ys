@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    transition: .25s ease;
+    &_primary {
+        background: $c-orange;
+        border: none;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        &:hover {
+            background: $c-orange_h;
+        }
+    }
+    &_medium {
+        padding: 10px 35px;
+    }
+    &_large {
+        padding: 13px;
+        width: 250px;
+        text-align: center;
+    }
+    &_fluid {
+        padding: 15px;
+        width: 100%;
+    }
+    &_uc {
+        text-transform: uppercase;
+    }
+}
